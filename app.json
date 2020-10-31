@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Leeloo AAC",
+    "slug": "leeloo",
+    "icon": "./assets/app-icon.png",
+    "version": "2.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "org.dreamoriented.leeloo",
+      "icon": "./assets/app-icon-ios.png",
+      "buildNumber": "2.0.0",
+      "supportsTablet": true,
+      "isRemoteJSEnabled": false,
+      "loadJSInBackgroundExperimental": true
+    },
+    "android": {
+      "icon": "./assets/app-icon.png",
+      "package": "org.dreamoriented.leeloo",
+      "permissions": [
+        "WAKE_LOCK"
+      ],
+      "versionCode": 200
+    },
+    "assetBundlePatterns": [
+      "assets/*",
+      "data/images/*"
+    ],
+    "privacy": "public"
+  }
+}
